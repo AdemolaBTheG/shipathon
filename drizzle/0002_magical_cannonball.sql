@@ -1,0 +1,1 @@
+ALTER TABLE `games` ADD `game_modes_json` text DEFAULT '[]' NOT NULL;

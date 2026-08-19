@@ -1,0 +1,5 @@
+{
+  "CFBundleDisplayName": "Joylogue",
+  "NSLocationWhenInUseUsageDescription": "Joylogue verwendet deinen Standort, um Spiele und Events in deiner Nähe anzuzeigen.",
+  "NSPhotoLibraryUsageDescription": "Erlaube Joylogue, ein Profilbild auszuwählen."
+}

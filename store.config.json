@@ -1,0 +1,78 @@
+{
+  "configVersion": 0,
+  "apple": {
+    "info": {
+      "en-US": {
+        "title": "Video Game Tracker - Joylogue",
+        "subtitle": "Backlog, progress & ratings",
+        "promoText": "Track your backlog, rate games, follow progress, discover your next play, and compare libraries with friends in one cinematic game journal.",
+        "description": "Build a gaming backlog you will actually use. Joylogue is a cinematic video game tracker for organizing your library, following every playthrough, and deciding what to play next.\n\nTRACK YOUR GAMING BACKLOG\n- Organize games as Want to Play, Playing, Completed, Shelved, or Abandoned.\n- Update completion progress and keep your current games easy to find.\n- Record start and completion dates for every playthrough.\n- Rate games with a simple five-star system.\n\nPLAN WHAT TO PLAY NEXT\n- View estimated Main Story, Main + Extras, and Completionist playtimes when available.\n- Use Tonight's Pick to bring one game from your backlog into focus.\n- Discover personalized recommendations based on games you enjoyed.\n- Keep upcoming releases on your radar.\n\nBUILD YOUR GAME LIBRARY FASTER\n- Search by game, genre, or platform.\n- Import a game from a shared link instead of entering every detail manually.\n- Open rich game pages with artwork, descriptions, platforms, screenshots, trailers, release details, and playtime estimates.\n\nCOMPARE WITH FRIENDS\n- See what friends are currently playing.\n- Compare shared games, ratings, statuses, and progress.\n- Find highly rated games from a friend's backlog and add them directly to your own.\n- Share an invite when you want to compare libraries.\n\nLOCAL-FIRST BY DESIGN\nYour personal backlog stays fast and available on your device, while optional social features connect you with friends. Whether you need a game collection manager, progress tracker, gaming wishlist, or personal game journal, Joylogue keeps the relationship between you and every game at the center.",
+        "privacyPolicyUrl": "https://joylogue.app/privacy",
+        "keywords": [
+          "gaming backlog",
+          "library",
+          "collection",
+          "wishlist",
+          "playtime",
+          "rating",
+          "progress",
+          "friends",
+          "journal",
+          "completion"
+        ]
+      },
+      "de-DE": {
+        "title": "Videospiel-Tracker - Joylogue",
+        "subtitle": "Spiele-Backlog & Fortschritt",
+        "promoText": "Verwalte deinen Backlog, bewerte Spiele, verfolge deinen Fortschritt, finde dein nächstes Game und vergleiche Sammlungen mit Freunden.",
+        "description": "Erstelle einen Gaming-Backlog, den du wirklich nutzt. Joylogue ist ein cineastischer Videospiel-Tracker, mit dem du deine Spielesammlung organisierst, jeden Spieldurchgang verfolgst und entscheidest, was du als Nächstes spielst.\n\nDEINEN GAMING-BACKLOG VERWALTEN\n- Ordne Spiele als Möchte ich spielen, In Arbeit, Abgeschlossen, Pausiert oder Abgebrochen ein.\n- Aktualisiere deinen Spielfortschritt und behalte aktuelle Spiele im Blick.\n- Erfasse Start- und Abschlussdaten für jeden Spieldurchgang.\n- Bewerte Spiele mit einem einfachen Fünf-Sterne-System.\n\nDEIN NÄCHSTES SPIEL PLANEN\n- Sieh geschätzte Spielzeiten für Hauptstory, Hauptstory + Extras und 100 % Abschluss, sofern verfügbar.\n- Mit Tipp für heute Abend rückst du ein Spiel aus deinem Backlog in den Fokus.\n- Entdecke persönliche Empfehlungen auf Basis der Spiele, die dir gefallen haben.\n- Behalte kommende Veröffentlichungen im Blick.\n\nDEINE SPIELESAMMLUNG SCHNELLER AUFBAUEN\n- Suche nach Spiel, Genre oder Plattform.\n- Importiere ein Spiel über einen geteilten Link, statt alle Details manuell einzugeben.\n- Öffne umfangreiche Spieleseiten mit Artworks, Beschreibungen, Plattformen, Screenshots, Trailern, Veröffentlichungsdaten und Spielzeitschätzungen.\n\nMIT FREUNDEN VERGLEICHEN\n- Sieh, was deine Freunde gerade spielen.\n- Vergleiche gemeinsame Spiele, Bewertungen, Status und Fortschritt.\n- Entdecke hoch bewertete Spiele aus dem Backlog eines Freundes und füge sie direkt deinem eigenen hinzu.\n- Teile eine Einladung, wenn ihr eure Sammlungen vergleichen möchtet.\n\nLOCAL-FIRST ENTWICKELT\nDein persönlicher Backlog bleibt schnell und auf deinem Gerät verfügbar, während optionale soziale Funktionen dich mit Freunden verbinden. Ob Spielesammlung, Fortschritts-Tracker, Gaming-Wunschliste oder persönliches Spieletagebuch: Bei Joylogue steht deine Beziehung zu jedem Spiel im Mittelpunkt.",
+        "privacyPolicyUrl": "https://joylogue.app/privacy",
+        "keywords": [
+          "backlog",
+          "spielesammlung",
+          "wunschliste",
+          "spielzeit",
+          "bewertung",
+          "fortschritt",
+          "freunde",
+          "tagebuch"
+        ]
+      },
+      "fr-FR": {
+        "title": "Suivi de jeux - Joylogue",
+        "subtitle": "Backlog, progression et notes",
+        "promoText": "Gérez votre backlog, notez vos jeux, suivez votre progression, trouvez votre prochaine aventure et comparez votre ludothèque avec vos amis.",
+        "description": "Créez un backlog de jeux que vous aurez vraiment envie d'utiliser. Joylogue est une application cinématographique de suivi de jeux vidéo conçue pour organiser votre ludothèque, suivre chaque partie et choisir votre prochain jeu.\n\nSUIVEZ VOTRE BACKLOG DE JEUX\n- Classez vos jeux dans À jouer, En cours, Terminé, En pause ou Abandonné.\n- Mettez à jour votre progression et retrouvez facilement vos jeux en cours.\n- Enregistrez les dates de début et de fin de chaque partie.\n- Notez vos jeux avec un système simple de cinq étoiles.\n\nCHOISISSEZ VOTRE PROCHAIN JEU\n- Consultez les estimations de durée pour l'histoire principale, l'histoire + les extras et le 100 %, lorsqu'elles sont disponibles.\n- Utilisez Le choix du soir pour mettre en avant un jeu de votre backlog.\n- Découvrez des recommandations personnalisées selon les jeux que vous avez aimés.\n- Gardez un œil sur les prochaines sorties.\n\nDÉVELOPPEZ VOTRE LUDOTHÈQUE PLUS VITE\n- Recherchez par jeu, genre ou plateforme.\n- Importez un jeu depuis un lien partagé au lieu de saisir chaque détail manuellement.\n- Explorez des fiches détaillées avec illustrations, descriptions, plateformes, captures d'écran, bandes-annonces, dates de sortie et estimations de durée.\n\nCOMPAREZ AVEC VOS AMIS\n- Découvrez les jeux auxquels vos amis jouent actuellement.\n- Comparez vos jeux communs, vos notes, vos statuts et votre progression.\n- Repérez les jeux les mieux notés dans le backlog d'un ami et ajoutez-les directement au vôtre.\n- Partagez une invitation pour comparer vos ludothèques.\n\nCONÇU EN LOCAL-FIRST\nVotre backlog personnel reste rapide et disponible sur votre appareil, tandis que les fonctions sociales facultatives vous rapprochent de vos amis. Gestionnaire de collection, suivi de progression, liste de souhaits ou journal de jeux personnel : Joylogue place votre relation avec chaque jeu au centre de l'expérience.",
+        "privacyPolicyUrl": "https://joylogue.app/privacy",
+        "keywords": [
+          "backlog",
+          "ludotheque",
+          "liste souhaits",
+          "temps de jeu",
+          "note",
+          "progression",
+          "amis",
+          "journal"
+        ]
+      },
+      "es-ES": {
+        "title": "Tracker de juegos - Joylogue",
+        "subtitle": "Backlog, progreso y notas",
+        "promoText": "Organiza tu backlog, valora juegos, sigue tu progreso, descubre qué jugar después y compara colecciones con tus amigos.",
+        "description": "Crea un backlog de videojuegos que realmente quieras usar. Joylogue es un tracker de videojuegos con un diseño cinematográfico para organizar tu biblioteca, seguir cada partida y decidir a qué jugar después.\n\nCONTROLA TU BACKLOG DE JUEGOS\n- Organiza tus juegos como Quiero jugar, Jugando, Completado, En pausa o Abandonado.\n- Actualiza tu progreso y encuentra rápidamente los juegos que tienes en marcha.\n- Guarda las fechas de inicio y finalización de cada partida.\n- Valora tus juegos con un sencillo sistema de cinco estrellas.\n\nPLANIFICA QUÉ JUGAR DESPUÉS\n- Consulta las estimaciones de Historia principal, Historia + extras y Completista cuando estén disponibles.\n- Usa La elección de esta noche para destacar un juego de tu backlog.\n- Descubre recomendaciones personalizadas según los juegos que te han gustado.\n- No pierdas de vista los próximos lanzamientos.\n\nAMPLÍA TU BIBLIOTECA MÁS RÁPIDO\n- Busca por juego, género o plataforma.\n- Importa un juego desde un enlace compartido en lugar de introducir cada detalle manualmente.\n- Abre fichas completas con ilustraciones, descripciones, plataformas, capturas, tráilers, fechas de lanzamiento y estimaciones de duración.\n\nCOMPARA CON TUS AMIGOS\n- Descubre a qué están jugando tus amigos.\n- Compara juegos en común, valoraciones, estados y progreso.\n- Encuentra juegos muy valorados en el backlog de un amigo y añádelos directamente al tuyo.\n- Comparte una invitación cuando quieras comparar bibliotecas.\n\nDISEÑADO LOCAL-FIRST\nTu backlog personal se mantiene rápido y disponible en tu dispositivo, mientras que las funciones sociales opcionales te conectan con tus amigos. Tanto si buscas un gestor de colecciones, un tracker de progreso, una lista de deseos o un diario personal de videojuegos, Joylogue mantiene en el centro tu relación con cada juego.",
+        "privacyPolicyUrl": "https://joylogue.app/privacy",
+        "keywords": [
+          "backlog",
+          "biblioteca",
+          "coleccion",
+          "deseos",
+          "tiempo de juego",
+          "valoracion",
+          "progreso",
+          "amigos",
+          "diario"
+        ]
+      }
+    }
+  }
+}

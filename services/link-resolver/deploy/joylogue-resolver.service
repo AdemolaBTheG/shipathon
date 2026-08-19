@@ -1,0 +1,26 @@
+[Unit]
+Description=Joylogue social link resolver service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=joylogue-resolver
+Group=joylogue-resolver
+WorkingDirectory=/opt/joylogue-resolver/current
+EnvironmentFile=/etc/joylogue-resolver.env
+ExecStart=/usr/bin/node src/server.mjs
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=15
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/joylogue-resolver
+MemoryMax=1200M
+TasksMax=128
+
+[Install]
+WantedBy=multi-user.target
