@@ -81,7 +81,7 @@ export default function GlowLabScreen() {
           style={styles.revealButton}
         >
           <SymbolView
-            name="sparkles"
+            name={{ android: "auto_awesome", ios: "sparkles" }}
             size={17}
             tintColor={colors.background}
           />
@@ -97,7 +97,7 @@ export default function GlowLabScreen() {
           style={[styles.resetButton, !revealed && styles.buttonDisabled]}
         >
           <SymbolView
-            name="arrow.counterclockwise"
+            name={{ android: "undo", ios: "arrow.counterclockwise" }}
             size={17}
             tintColor={colors.text}
           />

@@ -94,7 +94,7 @@ function Cover({
   return (
     <View style={[coverStyle, styles.coverPlaceholder]}>
       <SymbolView
-        name="gamecontroller.fill"
+        name={{ android: "sports_esports", ios: "gamecontroller.fill" }}
         size={compact ? 24 : 34}
         tintColor={colors.textMuted}
       />
@@ -211,7 +211,7 @@ function HeroResult({
               <View style={styles.quietButton}>
                 <Text style={styles.quietButtonText}>{t("View details")}</Text>
                 <SymbolView
-                  name="arrow.up.right"
+                  name={{ android: "open_in_new", ios: "arrow.up.right" }}
                   size={14}
                   tintColor={colors.textMuted}
                 />
@@ -358,7 +358,7 @@ export function LinkResolutionResult({
                 </Text>
               </View>
               <SymbolView
-                name="chevron.right"
+                name={{ android: "chevron_right", ios: "chevron.right" }}
                 size={16}
                 tintColor={colors.textMuted}
               />

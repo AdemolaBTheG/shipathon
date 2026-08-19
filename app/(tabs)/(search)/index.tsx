@@ -388,7 +388,7 @@ function BrowseHeader({
         >
           <Text style={styles.sectionTitle}>{t("Platforms")}</Text>
           <SymbolView
-            name="chevron.right"
+            name={{ android: "chevron_right", ios: "chevron.right" }}
             size={17}
             tintColor={colors.textMuted}
           />
@@ -457,7 +457,7 @@ function SearchEmptyState({
   return (
     <View style={styles.emptyState}>
       <SymbolView
-        name="magnifyingglass"
+        name={{ android: "search", ios: "magnifyingglass" }}
         size={38}
         tintColor={colors.textMuted}
       />

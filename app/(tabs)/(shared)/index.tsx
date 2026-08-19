@@ -375,7 +375,7 @@ export default function SharedScreen() {
                   style={styles.declineButton}
                 >
                   <SymbolView
-                    name="xmark"
+                    name={{ android: "close", ios: "xmark" }}
                     size={15}
                     tintColor={colors.textMuted}
                   />
@@ -411,7 +411,7 @@ export default function SharedScreen() {
                   zoomAvatar
                 >
                   <SymbolView
-                    name="chevron.right"
+                    name={{ android: "chevron_right", ios: "chevron.right" }}
                     size={17}
                     tintColor={colors.textMuted}
                   />
@@ -459,7 +459,10 @@ export default function SharedScreen() {
           return (
             <View style={styles.searchEmpty}>
               <SymbolView
-                name="person.crop.circle.badge.questionmark"
+                name={{
+                  android: "person_search",
+                  ios: "person.crop.circle.badge.questionmark",
+                }}
                 size={42}
                 tintColor={colors.textMuted}
               />
@@ -471,7 +474,7 @@ export default function SharedScreen() {
         return (
           <View style={styles.onboardingCard}>
             <SymbolView
-              name="person.2.fill"
+              name={{ android: "group", ios: "person.2.fill" }}
               size={80}
               tintColor={colors.primary}
               type="hierarchical"
@@ -493,7 +496,11 @@ export default function SharedScreen() {
               onPress={() => router.push("/share")}
               style={styles.button}
             >
-              <SymbolView name="plus" size={18} tintColor={colors.background} />
+              <SymbolView
+                name={{ android: "add", ios: "plus" }}
+                size={18}
+                tintColor={colors.background}
+              />
               <Text style={styles.buttonText}>{t("Add Friends")}</Text>
             </PressableScale>
           </View>

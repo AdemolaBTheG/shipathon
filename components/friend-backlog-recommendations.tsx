@@ -122,7 +122,11 @@ function RecommendationRow({
           <ActivityIndicator color={colors.background} size="small" />
         ) : (
           <>
-            <SymbolView name="plus" size={14} tintColor={colors.background} />
+            <SymbolView
+              name={{ android: "add", ios: "plus" }}
+              size={14}
+              tintColor={colors.background}
+            />
             <Text style={styles.addButtonText}>{t("Add")}</Text>
           </>
         )}

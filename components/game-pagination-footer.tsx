@@ -30,7 +30,7 @@ export function GamePaginationFooter({
           style={({ pressed }) => [styles.retry, pressed && styles.pressed]}
         >
           <SymbolView
-            name="arrow.clockwise"
+            name={{ android: "refresh", ios: "arrow.clockwise" }}
             size={15}
             tintColor={colors.text}
           />

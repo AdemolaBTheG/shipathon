@@ -98,7 +98,7 @@ export default function PlatformsScreen() {
       ListEmptyComponent={
         <View style={styles.emptyState}>
           <SymbolView
-            name="gamecontroller"
+            name={{ android: "sports_esports", ios: "gamecontroller" }}
             size={38}
             tintColor={colors.textMuted}
           />

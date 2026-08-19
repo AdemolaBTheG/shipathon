@@ -578,7 +578,7 @@ export default function AddScreen() {
                   ? undefined
                   : { effect: { type: "pulse" }, repeating: true }
               }
-              name="link.badge.plus"
+              name={{ android: "add_link", ios: "link.badge.plus" }}
               size={44}
               tintColor={colors.text}
             />
@@ -618,7 +618,11 @@ export default function AddScreen() {
 
       <View style={styles.fieldGroup}>
         <View style={[styles.inputShell, error && styles.inputShellError]}>
-          <SymbolView name="link" size={19} tintColor={colors.textMuted} />
+          <SymbolView
+            name={{ android: "link", ios: "link" }}
+            size={19}
+            tintColor={colors.textMuted}
+          />
           <TextInput
             autoCapitalize="none"
             autoCorrect={false}
@@ -655,7 +659,7 @@ export default function AddScreen() {
       >
         <Text style={styles.primaryButtonText}>{t("Find this game")}</Text>
         <SymbolView
-          name="arrow.right"
+          name={{ android: "arrow_forward", ios: "arrow.right" }}
           size={24}
           tintColor={colors.background}
         />

@@ -65,7 +65,7 @@ export default function ShareScreen() {
       {inviteQuery.isError ? (
         <View style={styles.stateCard}>
           <SymbolView
-            name="exclamationmark.triangle.fill"
+            name={{ android: "warning", ios: "exclamationmark.triangle.fill" }}
             size={34}
             tintColor={colors.primary}
           />
@@ -95,7 +95,11 @@ export default function ShareScreen() {
             onPress={shareInvite}
             style={styles.primaryButton}
           >
-            <SymbolView name="square.and.arrow.up" size={24} tintColor="#000" />
+            <SymbolView
+              name={{ android: "ios_share", ios: "square.and.arrow.up" }}
+              size={24}
+              tintColor="#000"
+            />
             <Text style={styles.primaryButtonText}>{t("Share invite")}</Text>
           </PressableScale>
 
@@ -105,7 +109,11 @@ export default function ShareScreen() {
             onPress={copyInviteLink}
             style={styles.secondaryButton}
           >
-            <SymbolView name="link" size={20} tintColor={colors.text} />
+            <SymbolView
+              name={{ android: "link", ios: "link" }}
+              size={20}
+              tintColor={colors.text}
+            />
             <Text style={styles.secondaryButtonText}>{t("Copy link")}</Text>
           </PressableOpacity>
         </View>

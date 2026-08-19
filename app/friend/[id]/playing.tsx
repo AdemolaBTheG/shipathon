@@ -110,7 +110,7 @@ export default function FriendCurrentlyPlayingScreen() {
         ) : (
           <View style={styles.feedback}>
             <SymbolView
-              name="gamecontroller"
+              name={{ android: "sports_esports", ios: "gamecontroller" }}
               size={44}
               tintColor={colors.textMuted}
             />
