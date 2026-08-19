@@ -281,7 +281,7 @@ export default function PlatformGamesScreen() {
     return (
       <View style={styles.invalidState}>
         <SymbolView
-          name="exclamationmark.triangle"
+          name={{ android: "warning", ios: "exclamationmark.triangle" }}
           size={40}
           tintColor={colors.textMuted}
         />
@@ -364,7 +364,7 @@ function PlatformEmptyState({
   return (
     <View style={styles.emptyState}>
       <SymbolView
-        name="rectangle.stack"
+        name={{ android: "collections_bookmark", ios: "rectangle.stack" }}
         size={40}
         tintColor={colors.textMuted}
       />

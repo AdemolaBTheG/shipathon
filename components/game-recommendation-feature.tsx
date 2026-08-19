@@ -274,7 +274,7 @@ function QuickAddButton({
       ) : isTracked ? (
         <>
           <SymbolView
-            name="checkmark"
+            name={{ android: "check", ios: "checkmark" }}
             size={16}
             weight="semibold"
             tintColor={colors.text}
@@ -284,7 +284,7 @@ function QuickAddButton({
       ) : (
         <>
           <SymbolView
-            name="plus"
+            name={{ android: "add", ios: "plus" }}
             size={16}
             weight={"semibold"}
             tintColor={colors.text}

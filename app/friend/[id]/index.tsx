@@ -465,7 +465,10 @@ export default function FriendDetailScreen() {
       {friendQuery.isError || !friendId ? (
         <View style={styles.feedback}>
           <SymbolView
-            name="person.crop.circle.badge.exclamationmark"
+            name={{
+              android: "person_alert",
+              ios: "person.crop.circle.badge.exclamationmark",
+            }}
             size={48}
             tintColor={colors.textMuted}
           />

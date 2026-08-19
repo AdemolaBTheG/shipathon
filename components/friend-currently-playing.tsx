@@ -48,7 +48,7 @@ export function FriendCurrentlyPlaying({
         >
           <Text style={styles.heading}>{t("Currently playing")}</Text>
           <SymbolView
-            name="chevron.right"
+            name={{ android: "chevron_right", ios: "chevron.right" }}
             size={18}
             tintColor={colors.textMuted}
           />
@@ -154,7 +154,7 @@ function CoverRating({ rating }: { rating: number }) {
   const content = (
     <>
       <SymbolView
-        name="star.fill"
+        name={{ android: "star", ios: "star.fill" }}
         size={12}
         style={styles.ratingSymbol}
         tintColor="#fff"

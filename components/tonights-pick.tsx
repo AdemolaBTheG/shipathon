@@ -82,7 +82,7 @@ export function TonightsPick({
       <View style={[heroStyle, styles.emptyHero]}>
         <View style={styles.emptyIcon}>
           <SymbolView
-            name="rectangle.stack.badge.plus"
+            name={{ android: "library_add", ios: "rectangle.stack.badge.plus" }}
             size={34}
             tintColor={colors.success}
           />
@@ -102,7 +102,11 @@ export function TonightsPick({
           onPress={onAdd}
           style={styles.emptyButton}
         >
-          <SymbolView name="plus" size={16} tintColor={colors.background} />
+          <SymbolView
+            name={{ android: "add", ios: "plus" }}
+            size={16}
+            tintColor={colors.background}
+          />
           <Text style={styles.primaryButtonText}>{t("Add a game")}</Text>
         </PressableScale>
       </View>
@@ -202,7 +206,7 @@ export function TonightsPick({
               ) : (
                 <>
                   <SymbolView
-                    name="play.fill"
+                    name={{ android: "play_arrow", ios: "play.fill" }}
                     size={16}
                     tintColor={colors.background}
                   />
@@ -227,7 +231,11 @@ export function TonightsPick({
               onPress={onShuffle}
               style={styles.shuffleButton}
             >
-              <SymbolView name="shuffle" size={17} tintColor={colors.text} />
+              <SymbolView
+                name={{ android: "shuffle", ios: "shuffle" }}
+                size={17}
+                tintColor={colors.text}
+              />
             </PressableOpacity>
           </Animated.View>
         </Animated.View>

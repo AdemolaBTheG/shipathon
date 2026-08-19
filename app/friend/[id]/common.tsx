@@ -182,7 +182,7 @@ export default function FriendCommonGamesScreen() {
         ) : (
           <View style={styles.feedback}>
             <SymbolView
-              name="rectangle.stack"
+              name={{ android: "collections_bookmark", ios: "rectangle.stack" }}
               size={44}
               tintColor={colors.textMuted}
             />

@@ -42,7 +42,11 @@ export function ProBlurGate({
         {isBusy ? (
           <ActivityIndicator color={colors.text} size="small" />
         ) : (
-          <SymbolView name="lock.fill" size={19} tintColor={colors.success} />
+          <SymbolView
+            name={{ android: "lock", ios: "lock.fill" }}
+            size={19}
+            tintColor={colors.success}
+          />
         )}
         <View style={styles.copy}>
           <Text style={styles.title}>{title}</Text>
@@ -50,7 +54,11 @@ export function ProBlurGate({
             {message}
           </Text>
         </View>
-        <SymbolView name="chevron.right" size={15} tintColor={colors.textMuted} />
+        <SymbolView
+          name={{ android: "chevron_right", ios: "chevron.right" }}
+          size={15}
+          tintColor={colors.textMuted}
+        />
       </PressableScale>
     </View>
   );

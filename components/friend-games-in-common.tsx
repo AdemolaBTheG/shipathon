@@ -58,7 +58,11 @@ function GameState({ state }: { state: FriendCommonGameState }) {
   return (
     <View style={styles.stateGroup}>
       {state.status === "completed" ? (
-        <SymbolView name="checkmark" size={11} tintColor={colors.success} />
+        <SymbolView
+          name={{ android: "check", ios: "checkmark" }}
+          size={11}
+          tintColor={colors.success}
+        />
       ) : null}
       <Text numberOfLines={1} style={styles.state}>
         {copy.label}
@@ -122,7 +126,7 @@ export function FriendCommonGameRow({
               {game.name}
             </Text>
             <SymbolView
-              name="chevron.right"
+              name={{ android: "chevron_right", ios: "chevron.right" }}
               size={14}
               tintColor={colors.textMuted}
             />
